@@ -24,11 +24,11 @@ int main(int argc, char** argv)
     	if (arg == "-h" && argc == 2 )
     	{
     		help = 1;
-    		std::cout<<"-ulr {ulr} to download best quality\n-of {of} [wav,mp3, ...etc]\n";
+    		std::cout<<"-url {url} to download best quality\n-of {of} [wav,mp3, ...etc]\n";
     	}
     }
 
-    if(argc <= 2 && !help) std::cout<<"-ulr {ulr} to download best quality\n-of {of} [wav,mp3, ...etc]\n";
+    if(argc <= 2 && !help) std::cout<<"-url {url} to download best quality\n-of {of} [wav,mp3, ...etc]\n";
 
     if (id && list ) 
     {
